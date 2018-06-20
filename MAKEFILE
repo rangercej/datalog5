@@ -1,0 +1,18 @@
+CC = ..\..\tcc
+
+SRC = datalog5.c \
+     dl_comms.c \
+     dl_gen.c \
+     dl_glob.c \
+     dl_menu.c \
+     dl_montr.c \
+     dl_setup.c
+
+BINFILE = dl.exe
+
+all: $(SRC)
+     $(CC) $(SRC)
+
+clean:
+     del *.obj
+     del $(BINFILE)

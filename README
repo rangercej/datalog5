@@ -1,0 +1,51 @@
+DataLog - 1996 C. Johnson
+=========================
+
+Written for a TA-880 multimonitor, it logs to disk the inputs of various 
+sensors (strain gauges, thermocouples, etc). Targetting Borland Turbo C
+v2 under DOS, so this is really more of historic interest if nothing else.
+
+I vaugely remember using a DOS program called "TheDraw" to design mimics so
+things could be shown real-time, but beyond that I don't recall much more!
+
+Given it's so old this code, I'm releasing into the public domain.
+
+As for the TA-880 itself, there's very little information online. Best I can
+find is this from ebay (no, this is not my listing ... but it's the only
+info google searches are finding, and thought it would be useful context):
+
+------------------------------------------------------------
+Listing is for a C.I.L Electronics TA800 Multimonitor. I can find very little
+about this online, though I also own a almost identical TA880 unit that was
+re-branded and housed in a industrial enclosure by Tinsley, who deny all
+knowledge of its existence when questioned about it.
+
+What this does is provide 11 channels of input and 3 channels of output. The
+input can be a thermocouple or other micro-volt source, or across a strain
+gauge. It has cal curves for most types of thermocouple. The 3 outputs can be
+set to output voltages and two of them can also simulate a thermcouple, which
+is quite novel. Their main use though would be to provide excitation for the
+strain gauges.
+
+I have never fully figured out how to use this, but pressing a channel, then
+either mV or a thermocouple type gives a reading if its an input or then
+entering a value and hitting "W" produces it as an output (iirc). A manual for
+this would be very useful. It is fairly accurate, as per the photos. You can
+also scroll the output up and down live with the arrow buttons. 
+
+Here is an extract from "Strain" magazine in 1983 for the almost identical
+TA880 (note the price!):
+* The Multi-monitor TA880 is designed to provide multipurpose monitoring of
+  volts, thermocouples, strain gauges and output simulation of thermocouples and
+  millivolts. 
+* The front panel is specially designed with membrane switches for easy operation
+  and programming. It also includes a four and a half digit display and various
+  indications. Eleven input channels and three output channels are available
+  together with isothermal input conditioning, auto-range and zero,
+  auto-linearisation and strain calibrations and autorecalibration. Price £850.
+
+Sold as seen in the photos, not fully tested and exercised (and quite old). 
+
+  -- https://www.ebay.co.uk/itm/CIL-Electronics-TA800-Multimonitor-DAQ-14-I-O-Channels-Strain-Volts-Deg-C-/223011499340
+
+------------------------------------------------------------
